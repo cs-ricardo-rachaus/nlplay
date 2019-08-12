@@ -64,5 +64,9 @@ Abaixo podemos ver algumas telas de exemplo de alguns desses fluxos. São apenas
 ### **ATENÇÃO**
 
 Não tente fazer o PUSH diretamente para ESTE repositório!
+
 O dojô acontecerá Quarta e Quinta.
-Das 18 às 19 horas.
+
+Das 18 às 19 horas. 
+
+Vejo você lá!!!
