@@ -13,7 +13,8 @@ struct InputView: View {
     @State var input: String = ""
     
     var body: some View {
-        TextField($input, placeholder: Text("What are you feeling?"))
+//        TextField($input, placeholder: Text("What are you feeling?"))
+        Text("asldfkjas")
     }
     
 }
