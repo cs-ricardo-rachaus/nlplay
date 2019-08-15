@@ -20,7 +20,7 @@ struct AddFeelingButton: View {
                     self.isShowingInput.toggle()
                 }, label: {
                     Image(uiImage: UIImage(systemName: "plus",                                      withConfiguration: self.plusConfig) ?? UIImage())
-                    .scaledToFit()
+                        .scaledToFit()
                         .accentColor(.white)
                         .frame(width: 64, height: 64)
                         .background(Color.blue)
