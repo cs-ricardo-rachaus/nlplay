@@ -9,16 +9,19 @@
 import SwiftUI
 
 struct FeelingView: View {
+    let titleText: String
+    let subtitleText: String
+    let color: Color
+    let text: String
+    
     var body: some View {
         HStack {
             ZStack {
-                
                 Rectangle()
-                    .frame(width: 1.5)
-                .padding(.leading, 16 - (25/2))
+                    .frame(width: 1)
                 
                 Circle()
-                    .foregroundColor(.red)
+                    .foregroundColor(color)
                     .frame(width: 25, height: 25)
                     .padding([.leading, .trailing], 32)
                 
@@ -27,13 +30,14 @@ struct FeelingView: View {
                 Image("image1")
                 .padding([.leading, .trailing], 8)
                 
-                VStack {
-                    Text("ASDASDASDA")
-                    Text("subtitulo")
+                VStack(alignment: .leading) {
+                    Text(titleText)
+                        .font(Font.system(size: 20))
+                    Spacer()
+                    Text(text)
+                        .foregroundColor(.gray)
                 }
-                
                 Spacer()
-        
             }
             .padding(16)
             .background(Color.white)

@@ -10,13 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     @State var isShowingInput: Bool = false
-    let sentiments = [Sentiment(id: 0, text: "Nervoso"), Sentiment(id: 1, text: "Raiva")]
+    let feelings = [
+        Feeling(id: 0, name: "Nervoso", text: "hoje fui na padaria e comprei pão e tremi", color: .red),
+        Feeling(id: 1, name: "Raiva", text: "hoje gritei com meus colegas de trabalho", color: .black)
+    ]
     var body: some View {
         NavigationView {
             VStack {
                 AddFeelingButton()
-                ForEach(sentiments) {_ in
-                    FeelingView()
+                ForEach(0 ..< feelings.count) { index in
+                    FeelingView(titleText: self.feelings[index].name,
+                                subtitleText: String(self.feelings[index].id),
+                                color: self.feelings[index].color,
+                                text: self.feelings[index].text)
                 }
             }.navigationBarTitle(Text("History"))
         }

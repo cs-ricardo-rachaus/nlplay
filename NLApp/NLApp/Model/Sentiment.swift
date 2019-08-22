@@ -6,9 +6,11 @@
 //  Copyright © 2019 leonel.menezes.lima. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
 
-struct Sentiment: Identifiable {
+struct Feeling: Identifiable {
     var id: Int
+    var name: String
     var text: String
+    var color: Color
 }

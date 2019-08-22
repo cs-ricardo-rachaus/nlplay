@@ -10,6 +10,7 @@
 		8F71E8BD2306071800503F09 /* Sentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F71E8BC2306071800503F09 /* Sentiment.swift */; };
 		8F71E8C12306075300503F09 /* FeelingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F71E8C02306075300503F09 /* FeelingView.swift */; };
 		8F71E8C523060AFF00503F09 /* AddFeelingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F71E8C423060AFF00503F09 /* AddFeelingButton.swift */; };
+		8FC49945230F42A30090D43A /* Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC49944230F42A30090D43A /* Feeling.swift */; };
 		8FC61BE52304B78C0012CF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC61BE42304B78C0012CF55 /* AppDelegate.swift */; };
 		8FC61BE72304B78C0012CF55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC61BE62304B78C0012CF55 /* SceneDelegate.swift */; };
 		8FC61BE92304B78C0012CF55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC61BE82304B78C0012CF55 /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 		8F71E8BC2306071800503F09 /* Sentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment.swift; sourceTree = "<group>"; };
 		8F71E8C02306075300503F09 /* FeelingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingView.swift; sourceTree = "<group>"; };
 		8F71E8C423060AFF00503F09 /* AddFeelingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeelingButton.swift; sourceTree = "<group>"; };
+		8FC49944230F42A30090D43A /* Feeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeling.swift; sourceTree = "<group>"; };
 		8FC61BE12304B78C0012CF55 /* NLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC61BE42304B78C0012CF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FC61BE62304B78C0012CF55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				8F71E8BC2306071800503F09 /* Sentiment.swift */,
+				8FC49944230F42A30090D43A /* Feeling.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				8F71E8BD2306071800503F09 /* Sentiment.swift in Sources */,
 				8F71E8C12306075300503F09 /* FeelingView.swift in Sources */,
+				8FC49945230F42A30090D43A /* Feeling.swift in Sources */,
 				8FC61BE52304B78C0012CF55 /* AppDelegate.swift in Sources */,
 				8FC61C072304B8600012CF55 /* InputView.swift in Sources */,
 				8F71E8C523060AFF00503F09 /* AddFeelingButton.swift in Sources */,
